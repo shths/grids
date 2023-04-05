@@ -1,0 +1,52 @@
+.page-header{
+    display: grid;
+    grid-template-columns: 1150px 160px;
+    border: solid 1px black;
+    background-color: pink;
+}
+.quote{
+font-weight: bold;
+position: relative;
+right:20px;
+top:30px;
+}
+.accent{
+    color: #C71585;
+    position: relative;
+    left:35px;
+    top:15px;
+}
+.days-list{
+    display:grid;
+    grid-template-columns: 225px 225px ;
+    grid-template-rows:150px 150px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+    table-layout: auto;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom:40px;
+    
+}
+.day {
+    text-align: left;
+    position: relative;
+    background-color:#F0F8FF;
+}
+li h2{
+    color:#C71585;
+    font-weight: bold;
+}
+li {
+    padding-left:10px;
+}
+footer{
+    border:solid 1px black;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:0px;
+    background-color: pink;
+}
